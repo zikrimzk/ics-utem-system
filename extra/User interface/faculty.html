@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Format.css">
+    <style>
+        ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 40px 40px;
+                background-color: rgb(12, 60, 162);
+                border-radius: 20px;
+                border: 2px solid rgb(0, 0, 72);
+                float: left;
+            }
+        section{
+            margin-bottom: 100px;
+            
+        }
+        article {
+            background-color: rgb(207, 221, 236);
+        }
+    
+        .title{
+            font-size: xx-large;
+            text-align: center;
+   
+        
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .text1{
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        .gambar1{
+            width: 1200px ;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 70% ;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #001f5e;
+}
+.image1 {
+  display: block;
+  width: 40% ;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #001f5e;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #001f5e;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #001f5e;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.container:hover .overlay1 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+    </style>
+    <body>
+        <title> HOMEPAGE </title>
+        <header>
+          <nav class="top">
+          <li> <a href="index.html">LOG IN</a></li>
+          <li> <a href="index.html">SIGN UP</a></li>
+        </nav>
+        <img src="image/F.png" alt="logo" class="logo">
+        </header>   
+        <center> <nav class="middle">
+            <li> <a href="index.html">HOME</a></li>
+            <li><a href="faculty.html">FACULTY</a></li>
+            <li><a href="#">KOLEJ KEDIAMAN</a></li>
+          
+             <li><a href="complaint.html">COMPLAINT</a></li>
+             <li><a href="#">CONTACT US</a></li>
+         </nav></center>
+
+        <section>
+            <article>
+                <h1 class="title">FACULTY HOMEPAGE</h1>
+                <img src="image/Facultyhome.png" class="gambar1">
+                <h2 class="text1"> Here you will receive faculty related information and news about every faculty. Just click on your faculty</h2>
+                <table border="0" cellpadding="10"cellspacing="0">
+                    <tr>
+                        <td><div class="container">
+                            <img src="image/FKEKK.jpg" alt="Avatar" class="image">
+                            <a href="fkekk.html"><div class="overlay">
+                              <div class="text">FAKULTI KEJURUTERAAN ELEKTRONIK & KEJURUTERAAN KOMPUTER</div></a>
+                            </div>
+                          </div></td>
+                          <td><div class="container">
+                            <img src="image/FKM.jpg" alt="Avatar" class="image">
+                            <a href="fkm.html"><div class="overlay">
+                              <div class="text">FAKULTI KEJURUTERAAN MEKANIKAL</div></a>
+                            </div>
+                          </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="container">
+                            <img src="image/FTMK.jpg" alt="Avatar" class="image">
+                            <a href="ftmk.html"><div class="overlay">
+                              <div class="text">FAKULTI TEKNOLOGI MAKLUMAT</div></a>
+                            </div>
+                          </div></td>
+                          <td><div class="container">
+                            <img src="image/FKP.jpg" alt="Avatar" class="image">
+                            <a href="fkp.html"><div class="overlay">
+                              <div class="text">FAKULTI KEJURUTERAAN PEMBUATAN</div></a>
+                            </div>
+                          </div></td>
+                    </tr>
+                    <tr >
+                        <td colspan="2"><div class="container">
+                            <img src="image/FKE.jpg" alt="Avatar" class="image1">
+                            <a href="fkp.html"> <div class="overlay1">
+                              <div class="text">FAKULTI KEJURUTERAAN ELEKTRONIK</div></a>
+                            </div>
+                          </div></td>
+                         
+                    </tr>
+                </table>
+                
+
+            </article>
+
+        </section>
+
+        
+        <footer class="footer">
+          <p class="title1">Navigation menu</p>
+          <li> <a href="index.html">HOME</a></li>
+          <li><a href="faculty.html">FACULTY</a></li>
+          <li><a href="#">KOLEJ KEDIAMAN</a></li>
+           <li><a href="#">UNIVERSITY DIRECTORY</a></li>
+           <li><a href="complaint.html">COMPLAINT</a></li>
+           <li><a href="#">CONTACT US</a></li>
+           <p class="copy"> Copyright@2022 </p>
+        </footer>
+
+      
+    </body>
+</html>

@@ -1,0 +1,170 @@
+footer{
+    background-color: rgb(4, 15, 50);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text_1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+.text_2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(181, 239, 245);
+    position:absolute;
+    height: 155%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar .active {
+    background-color:rgb(9, 9, 45);
+    color: white;
+ 
+  
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(7, 20, 96);
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+   
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    padding: 5px;
+
+  
+
+
+    
+
+}
+.flex-container>div{
+  
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.size{
+    height: 10cm;
+    width: 8cm;
+}
+ a .button1{
+    width:9cm;
+   
+}
+a .button1_1{
+    width:12cm;
+}
+a .button1_2{
+    width:8cm;
+}
+
+.bannerf{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+p.info{
+    margin-left: 70px;
+    margin-right: 50px;
+    color: rgb(0, 0, 0) 0, 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.ats1{
+  background-color: rgb(181, 239, 245);
+  border-radius: 20px;
+  padding: 2px;
+}
+
+
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 79px;
+      background-color: rgb(181, 239, 245);
+      position:absolute;
+      height: 100%;
+      overflow: hidden;
+    }
+    .sidebar a {float: left; font-size: small;}
+    div.content {margin-left: 0;}
+    .flex-container{
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .text_1{
+      font-size: medium;
+    }
+    .text_2{
+     font-size: medium;
+  }
+    .size{
+      height: 5cm;
+      width: 4cm;
+  }
+  div.content {
+    margin-left: 80px;
+    padding: 1px 16px;
+   
+  }
+  p.info{
+   font-size: small;
+    
+}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    .flex-container{
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  

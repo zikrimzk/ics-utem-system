@@ -1,0 +1,20 @@
+.button{
+    width: 1cm;
+    padding: 10px;
+}
+footer.rr{
+    background-color: rgb(117, 0, 0);
+    width:98.7%;
+}
+
+.text1{
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}

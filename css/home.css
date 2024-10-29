@@ -1,0 +1,153 @@
+
+
+.greet{
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+#slider {
+    position: relative;
+    width: 1360;
+    height: 480px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+  
+}
+#slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+    float: left;
+  }
+
+  #slider ul li img{
+    width: 1360;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.538);
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+  }
+  #slider #prev {
+    left: 10px;
+  }
+  #slider #next {
+    right: 10px;
+  }
+  #slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+  }
+.utemtv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+  
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image:linear-gradient(rgb(164, 243, 243),rgb(158, 228, 255));
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    
+
+}
+.flex-container>div{
+  background-image:linear-gradient(rgb(164, 243, 243),rgb(158, 228, 255));
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.size{
+    height: 5cm;
+    width: 10cm;
+}
+.navigate{
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+
+   
+  }
+.button{
+    width: 10cm;
+}
+footer{
+    background-color: rgb(4, 15, 50);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  #slider {
+    width: 360px;
+    height: 120px;
+    
+}
+.greet{
+  
+  font-size: medium;
+  margin-top: 78px;
+}
+
+#slider ul li img{
+  width: 360px;
+  height: 120px;
+  
+}
+.utemtv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.sec_2S{
+width:10px;
+}
+}

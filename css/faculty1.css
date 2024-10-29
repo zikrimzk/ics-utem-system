@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  .text_1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+  
+  .sidebar {
+    margin-left: 10px;
+    padding: 0;
+    width: 150px;
+    background-color: rgb(0, 45, 224);
+    position:absolute;
+    border-radius: 20px;
+    overflow: auto;
+  }
+
+.sidebar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(0, 97, 158);
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 20%;
+  
+    padding: 1px 16px;
+    background-color: rgb(255, 255, 255);
+    
+    margin-right: 20%;
+  }
+
+  table.post{
+    margin-top: 50px;
+      background-color: rgb(255, 238, 182);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      transition: 1s;
+      animation: myanim 3s ease-out;
+      bottom: 20px;
+      position:relative;
+  }
+  @keyframes myanim {
+    20% {
+       bottom: 40px;
+    }
+ }
+  table.post:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
+
+  footer{
+    background-color: rgb(4, 15, 50);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  .tajuk{
+    font-weight:bolder;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: underline;
+  }
+  .mak1{
+    font-size: 12pt;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  .image{
+
+    height:auto;
+    width:17cm;
+
+  }
+  .update{
+    text-decoration: none;
+    color:rgb(192, 105, 0);
+  }
+
+  @media screen and (max-width: 700px) {
+    .text_1{
+      font-size: medium;
+      margin-top: 100px;
+  }
+  .sidebar {
+   
+    width: 100px;
+    
+  }
+  
+  .sidebar a {
+    font-size: small;
+  }
+  .mak1{
+    font-size: 12pt;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+  
+  }
+  .tajuk{
+   
+    font-size: medium;
+  }
+  
+  
+  .image{
+  
+    height:auto;
+    width:7cm;
+  
+  }
+  div.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 16px;
+    
+  
+  }
+  
+  
+  }
+  
